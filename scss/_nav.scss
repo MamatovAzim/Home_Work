@@ -1,0 +1,23 @@
+.header {
+    background: url(../img/big_fon.png);
+    background-size: cover;
+    height: 560px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    
+}
+
+.nav__ink {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 35px;
+}
+

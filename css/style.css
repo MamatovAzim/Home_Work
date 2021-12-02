@@ -7,4 +7,29 @@ body {
   box-sizing: border-box;
 }
 
+.header {
+  background: url(../img/big_fon.png);
+  background-size: cover;
+  height: 560px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__ink {
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 35px;
+}
+
+@media screen and (max-width: 992px) {
+  .nav__ink {
+    display: block;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
