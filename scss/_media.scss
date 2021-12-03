@@ -3,3 +3,12 @@
         display: block;
     }
 }
+@media screen and (max-width: 566px) {
+    
+    .hiden {
+        max-width: 324px;
+        margin-left: 0;
+    }
+}
+
+// @media screen and (max-width: 1200px) 
