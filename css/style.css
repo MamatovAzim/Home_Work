@@ -89,6 +89,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.one {
+  max-width: 750px;
+  max-height: 625px;
+}
+
 @media screen and (max-width: 992px) {
   .nav__ink {
     display: block;
