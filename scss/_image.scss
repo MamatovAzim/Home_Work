@@ -1,4 +1,43 @@
+// .one {
+//     max-width: 640px;
+//     max-height: 1000vh;
+//     background-size: cover;
+// }
+
+.are {
+    display: flex;
+}
+
 .one {
-    max-width: 750px;
+    background: url(..//img/list.png);
+}
+
+.title {
+    background-color: #ffc155;
     max-height: 625px;
+}
+
+.title__theme {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.title__text {
+    width: 505px;
+    height: 167px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.btn {
+    width: 145px;
+    height: 46px;
+    border-radius: 2px;
+    background-color: rgba(231,173,72,0);
+    border: 1px solid #cb8d21;
 }

@@ -23,7 +23,7 @@
 }
 
 .offer {
-    margin-top: 115px;
+    margin-top: 100px;
 }
 
 .theme {
@@ -56,6 +56,7 @@
     margin-left: 48px;
 }
 .tools {
+    display: flex;
     max-width: 100%;
 }
 
@@ -80,5 +81,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.hero {
+    display: flex;
+}
 
 
