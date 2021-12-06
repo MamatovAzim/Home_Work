@@ -3,7 +3,9 @@
     background-size: cover;
     height: 560px;
 }
-
+.carousel-item {
+    min-height: 400px;
+}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -17,8 +19,11 @@
     margin-left: 35px;
 }
 
+
+
+
 .tool {
-    max-height: 1000px;
+    // max-height: 1000px;
     
 }
 
@@ -32,7 +37,7 @@
     font-weight: 700;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 80px;
+    margin-top: 190px;
     text-transform: uppercase;
 }
 
@@ -74,9 +79,9 @@
 
 .idea {
     max-width: 477px;
-    height: 70px;
+    // height: 70px;
     font-size: 13px;
-    line-height: 22px;
+    // line-height: 22px;
     color: #7b7b7b;
     font-family: 'Open Sans', sans-serif;
 }
@@ -84,5 +89,6 @@
 .hero {
     display: flex;
 }
+
 
 

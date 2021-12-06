@@ -7,15 +7,17 @@
     // display: flex;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
 }
 
 .list {
-    // max-width: 750px;
-    max-height: 620px;
+    width: 100%;
+    // min-height: 443px;
+    vertical-align: middle;
 }
 
 .one {
-    max-width: 632px;
+    width: 100%;
     // max-height: 625px;
     background: center, center;
     background-size: cover;
@@ -28,6 +30,7 @@
 .title {
     background-color:  #ffc155;
     max-height: 625px;
+    vertical-align: middle;
 }
 
 .title__theme {
@@ -36,13 +39,14 @@
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     margin-left: 65px;
-    margin-top: 60px;
+    padding-top: 40px;
+    font-weight: 700;
 }
 
 .title__text {
-    max-width: 505px;
-    height: 145px;
-    font-size: 13px;
+    max-width: 450px;
+    height: 117px;
+    font-size: 10px;
     line-height: 24px;
     color: #ffffff;
     font-weight: 400;
@@ -51,9 +55,9 @@
 }
 
 .title__info {
-    max-width: 505px;
-    height: 124px;
-    font-size: 13px;
+    max-width: 450px;
+    height: 89px;
+    font-size: 10px;
     line-height: 24px;
     color: #ffffff;
     font-weight: 400;
@@ -61,7 +65,7 @@
     margin-left: 65px;
 }
 
-.btn {
+.title__btn {
     width: 145px;
     height: 46px;
     border-radius: 2px;
@@ -72,4 +76,24 @@
     font-size: 14px;
     font-weight: 400;
     color: #ffffff;
+    
+}
+
+
+.our__work {
+    min-height: 340px;
+}
+
+.work__theme {
+    font-size: 26px;
+    color: #709dca;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.icon {
+    
 }
