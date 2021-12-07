@@ -17,15 +17,28 @@
     }
 }
 
-@media screen and (max-width: 770px) {
+// @media screen and (max-width: 770px) {
+//     .title {
+//         text-align: center;
+//         margin: 0 auto;
+//     }
+//     .title__text {
+//         align-items: center;
+//     }
+//     .title__info {
+//         text-align: center;
+//     }
+// }
+
+@media screen and (max-width: 460px) {
     .title {
-        text-align: center;
-        margin: 0 auto;
+        margin-left: 0;
     }
-    .title__text {
-        align-items: center;
-    }
-    .title__info {
-        text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .sidbar {
+        // display: block;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
