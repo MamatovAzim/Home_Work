@@ -17,6 +17,16 @@
     }
 }
 
+
+
+
+@media screen and (max-width: 460px) {
+    .title__btn {
+        margin-top: 35px;
+    }
+}
+
+
 // @media screen and (max-width: 770px) {
 //     .title {
 //         text-align: center;
@@ -40,5 +50,25 @@
     .sidbar {
         // display: block;
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .here {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .reg__title2 {
+        margin-top: 95px;
+    }
+}
+
+
+@media screen and (max-width: 410px) {
+    .reg__text {
+        font-size: 11px;
     }
 }

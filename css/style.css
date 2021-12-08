@@ -127,7 +127,7 @@ body {
 
 .title__text {
   max-width: 450px;
-  height: 117px;
+  min-height: 117px;
   font-size: 10px;
   line-height: 24px;
   color: #ffffff;
@@ -138,7 +138,7 @@ body {
 
 .title__info {
   max-width: 450px;
-  height: 89px;
+  min-height: 89px;
   font-size: 10px;
   line-height: 24px;
   color: #ffffff;
@@ -175,7 +175,8 @@ body {
 }
 
 .icon {
-  align-self: center;
+  display: block;
+  margin: auto;
 }
 
 .work__text {
@@ -218,36 +219,51 @@ body {
   background-size: cover;
 }
 
+.registration {
+  min-height: 500px;
+}
+
 .reg__theme {
   font-size: 26px;
   color: #709dca;
   font-weight: 700;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  margin-top: 110px;
+  margin-top: 85px;
   text-transform: uppercase;
+}
+
+.reg__img {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
 }
 
 .here {
   display: flex;
   margin: 0 auto;
+  margin-top: 90px;
 }
 
 .reg__title1 {
-  width: 452px;
+  max-width: 452px;
   height: 150px;
   background-color: #f6f3f3;
+  display: block;
+  margin: auto;
 }
 
 .reg__title2 {
-  width: 452px;
+  max-width: 452px;
   height: 150px;
   background-color: #f6f3f3;
+  display: block;
+  margin: auto;
 }
 
 .reg__text {
-  width: 408px;
-  height: 118px;
+  max-width: 408px;
+  min-height: 118px;
   font-size: 13px;
   line-height: 23px;
   color: #747474;
@@ -283,6 +299,127 @@ body {
   font-size: 13px;
 }
 
+.reg__touch {
+  display: block;
+  margin: auto;
+  margin-top: 124px;
+}
+
+.email {
+  min-height: 350px;
+  background: url(../img/email_end.png) center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.name__theme {
+  font-size: 22px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+}
+
+.name__text {
+  width: 270px;
+  height: 155px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c3c3c3;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+}
+
+.contact__theme {
+  font-size: 22px;
+  letter-spacing: -1px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.contact__text {
+  width: 265px;
+  height: 70px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c4c4c4;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.geo {
+  display: flex;
+}
+
+.geo__text {
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.geo__img {
+  height: 15px;
+}
+
+.tweets__theme {
+  font-size: 22px;
+  letter-spacing: -1px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.tweets__icon {
+  display: flex;
+}
+
+.tweets__img {
+  height: 15px;
+}
+
+.tweets__text {
+  width: 248px;
+  height: 70px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c4c4c4;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #71b6d5;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.news__theme {
+  font-size: 22px;
+  letter-spacing: -1px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.news__text {
+  width: 267px;
+  height: 70px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c4c4c4;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
 @media screen and (max-width: 992px) {
   .nav__ink {
     display: block;
@@ -301,6 +438,11 @@ body {
   }
 }
 @media screen and (max-width: 460px) {
+  .title__btn {
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 460px) {
   .title {
     margin-left: 0;
   }
@@ -308,6 +450,21 @@ body {
 @media screen and (max-width: 992px) {
   .sidbar {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 992px) {
+  .here {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) {
+  .reg__title2 {
+    margin-top: 95px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .reg__text {
+    font-size: 11px;
   }
 }
 

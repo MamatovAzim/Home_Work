@@ -1,3 +1,7 @@
+.registration {
+    min-height: 500px;
+}
+
 
 .reg__theme {
     font-size: 26px;
@@ -5,41 +9,50 @@
     font-weight: 700;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 110px;
+    margin-top: 85px;
     text-transform: uppercase;
 }
 
-// .reg__img {
-    
-// }
+.reg__img {
+    display: block;
+    margin: auto;
+    margin-top: 25px; 
+}
 
 .here {
     display: flex;
     margin: 0 auto;
+    margin-top: 90px;
 }
 
 .reg__title1 {
-    width: 452px;
+    max-width: 452px;
     height: 150px;
     background-color: #f6f3f3;
+    display: block;
+    margin: auto;
 }
 
 .reg__title2 {
-    width: 452px;
+    max-width: 452px;
     height: 150px;
     background-color: #f6f3f3;
+    display: block;
+    margin: auto;
 }
 
 .reg__text {
-    width: 408px;
-    height: 118px;
+    max-width: 408px;
+    min-height: 118px;
     font-size: 13px;
     line-height: 23px;
     color: #747474;
     font-weight: 800;
     font-style: italic;
     font-family: "Open Sans";
+
 }
+
 
 
 .reg__foto {
@@ -70,3 +83,134 @@
     font-size: 13px;
 
 }
+
+.reg__touch {
+    display: block;
+    margin: auto;
+    margin-top: 124px;
+}
+
+.email { 
+    min-height: 350px;
+    background: url(../img/email_end.png) center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+.name__theme {
+    font-size: 22px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+    // text-align: center;
+}
+
+.name__text {
+    width: 270px;
+    height: 155px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c3c3c3;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact__theme {
+    font-size: 22px;
+    letter-spacing: -1px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.contact__text {
+    width: 265px;
+    height: 70px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c4c4c4;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.geo {
+    display: flex;
+}
+
+.geo__text {
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.geo__img {
+    height: 15px;
+    // width: 10px;
+}
+
+.tweets__theme {
+    font-size: 22px;
+    letter-spacing: -1px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.tweets__icon {
+    display: flex;
+}
+
+.tweets__img {
+    height: 15px;
+}
+
+.tweets__text {
+    width: 248px;
+    height: 70px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c4c4c4;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #71b6d5;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+
+.news__theme {
+    font-size: 22px;
+    letter-spacing: -1px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+
+.news__text {
+    width: 267px;
+    height: 70px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c4c4c4;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+// .tweets__flex {
+//     display: flex;
+// }
