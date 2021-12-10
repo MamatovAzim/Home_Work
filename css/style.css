@@ -30,6 +30,21 @@ body {
   margin-left: 35px;
 }
 
+.crl__btn {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  width: 152px;
+  height: 49px;
+  border-radius: 5px;
+  margin-top: 53px;
+  background-color: #709dca;
+  border: none;
+  text-transform: uppercase;
+}
+
 .offer {
   margin-top: 100px;
 }
@@ -213,6 +228,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.sidbar__img:hover {
+  background: #ffc155;
+}
+
 .sidbar__img {
   width: 100%;
   vertical-align: middle;
@@ -248,33 +267,26 @@ body {
 .reg__title1 {
   max-width: 452px;
   height: 150px;
-  background-color: #f6f3f3;
   display: block;
+  background-color: #f6f3f3;
   margin: auto;
 }
 
 .reg__title2 {
   max-width: 452px;
   height: 150px;
-  background-color: #f6f3f3;
   display: block;
+  background-color: #f6f3f3;
   margin: auto;
 }
 
 .reg__text {
-  max-width: 408px;
-  min-height: 118px;
   font-size: 13px;
   line-height: 23px;
   color: #747474;
   font-weight: 800;
   font-style: italic;
   font-family: "Open Sans";
-}
-
-.reg__foto {
-  margin-left: 26px;
-  width: 44px;
 }
 
 .reg__foto2 {
@@ -325,6 +337,7 @@ body {
 }
 
 .name__text {
+  margin-top: 17px;
   max-width: 270px;
   min-height: 155px;
   font-size: 14px;
@@ -348,6 +361,7 @@ body {
 }
 
 .contact__text {
+  margin-top: 17px;
   max-width: 265px;
   min-height: 70px;
   font-size: 14px;
@@ -394,6 +408,7 @@ body {
 
 .tweets__icon {
   display: flex;
+  margin-top: 17px;
 }
 
 .tweets__img {
@@ -408,6 +423,7 @@ body {
   color: #c4c4c4;
   font-weight: 400;
   font-family: "Open Sans";
+  margin: 0;
 }
 
 .span {
@@ -432,6 +448,7 @@ body {
 }
 
 .news__text {
+  margin-top: 17px;
   max-width: 267px;
   min-height: 70px;
   font-size: 14px;
@@ -477,7 +494,11 @@ body {
 .the__title {
   display: flex;
   justify-content: space-between;
-  padding: 40px 75px 0 60px;
+  align-items: center;
+  padding-top: 40px;
+  max-width: 1130px;
+  text-align: center;
+  padding-left: 60px;
 }
 
 .the__text {
@@ -490,6 +511,10 @@ body {
 
 .icon__end {
   display: flex;
+}
+
+.the__img {
+  padding-left: 8px;
 }
 
 @media screen and (max-width: 992px) {
@@ -561,6 +586,12 @@ body {
 @media screen and (max-width: 380px) {
   .email__block {
     padding: 0;
+  }
+}
+@media screen and (max-width: 490px) {
+  .the__title {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

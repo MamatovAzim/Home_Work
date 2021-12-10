@@ -19,8 +19,28 @@
     margin-left: 35px;
 }
 
+// .carousel-control-prev-icon {
+//     background: url(../img/btn__left.png);
+// }
+// .carousel-control-next-icon {
+//     background: url(../img/btn__right.png);  
+// }
 
 
+.crl__btn {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    width: 152px;
+    height: 49px;
+    border-radius: 5px;
+    margin-top: 53px;
+    background-color: #709dca;
+    border: none;
+    text-transform: uppercase;
+}
 
 .tool {
     // max-height: 1000px;

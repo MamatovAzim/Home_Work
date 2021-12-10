@@ -28,22 +28,25 @@
 .reg__title1 {
     max-width: 452px;
     height: 150px;
-    background-color: #f6f3f3;
     display: block;
+    background-color: #f6f3f3;
     margin: auto;
 }
 
 .reg__title2 {
     max-width: 452px;
     height: 150px;
-    background-color: #f6f3f3;
     display: block;
+    background-color: #f6f3f3;
     margin: auto;
 }
 
+.reg__block {
+    // max-width: 408px;
+}
+
 .reg__text {
-    max-width: 408px;
-    min-height: 118px;
+
     font-size: 13px;
     line-height: 23px;
     color: #747474;
@@ -55,11 +58,11 @@
 
 
 
-.reg__foto {
-    margin-left: 26px;
-    width: 44px;
+// .reg__foto {
+//     // margin-left: 26px;
+//     // width: 44px;
 
-}
+// }
 
 .reg__foto2 {
     margin-left: 26px;
@@ -118,6 +121,7 @@
 }
 
 .name__text {
+    margin-top: 17px;
     max-width: 270px;
     min-height: 155px;
     font-size: 14px;
@@ -141,6 +145,7 @@
 }
 
 .contact__text {
+    margin-top: 17px;
     max-width: 265px;
     min-height: 70px;
     font-size: 14px;
@@ -188,6 +193,7 @@
 
 .tweets__icon {
     display: flex;
+    margin-top: 17px;
 }
 
 .tweets__img {
@@ -202,6 +208,7 @@
     color: #c4c4c4;
     font-weight: 400;
     font-family: "Open Sans";
+    margin: 0;
 }
 
 .span {
@@ -227,6 +234,7 @@
 
 
 .news__text {
+    margin-top: 17px;
     max-width: 267px;
     min-height: 70px;
     font-size: 14px;
@@ -276,8 +284,15 @@
 
 .the__title {
     display: flex;
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    padding: 40px 75px 0 60px;
+    // padding: 40px 75px 0 60px;
+    align-items: center;
+    padding-top: 40px;
+    max-width: 1130px;
+    text-align: center;
+    padding-left: 60px;
 }
 
 .the__text {
@@ -290,4 +305,8 @@
 
 .icon__end {
     display: flex;
+}
+
+.the__img {
+    padding-left: 8px;
 }
