@@ -122,6 +122,7 @@ body {
   width: 100%;
   background: center, center;
   background-size: cover;
+  min-height: 100%;
 }
 
 .title {
@@ -202,7 +203,7 @@ body {
   font-weight: 400;
   font-family: "Open Sans";
   text-align: center;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .portfolio {
@@ -325,7 +326,7 @@ body {
 .email__block {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 30px 60px 0 60px;
+  padding: 50px 60px 60px 60px;
 }
 
 .name__theme {
@@ -517,6 +518,18 @@ body {
   padding-left: 8px;
 }
 
+.carousel-control-next-icon {
+  border: 3px solid #709dc9;
+  border-radius: 30px;
+  color: #ffc155;
+}
+
+.carousel-control-prev-icon {
+  border: 3px solid #709dc9;
+  border-radius: 30px;
+  color: #ffc155;
+}
+
 @media screen and (max-width: 992px) {
   .nav__ink {
     display: block;
@@ -582,16 +595,41 @@ body {
   .email__block {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .news {
+    padding-top: 20px;
+  }
 }
 @media screen and (max-width: 380px) {
   .email__block {
     padding: 0;
   }
 }
+@media screen and (max-width: 1150px) {
+  .title {
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .email {
+    padding-top: 15px;
+    padding-left: 35px;
+  }
+}
+@media screen and (max-width: 1196px) {
+  .the__title {
+    padding-right: 60px;
+  }
+}
 @media screen and (max-width: 490px) {
   .the__title {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+@media screen and (max-width: 740px) {
+  .email__block {
+    padding-top: 25px;
   }
 }
 
