@@ -74,7 +74,11 @@
     font-size: 14px;
     font-weight: 400;
     color: #ffffff;
-    
+    transition: 0.4s;
+}
+
+.title__btn:hover {
+    transform: scale(0.9);
 }
 
 
@@ -124,6 +128,13 @@
     text-align: center;
     margin: 0 auto;
     text-decoration: none;
+    transition: 0.4s;
+}
+
+.fill:hover {
+    transform: scale(0.8);
+    padding: 0;
+    border-bottom: 1px solid #0d6efd;
 }
 
 .sidbar {
