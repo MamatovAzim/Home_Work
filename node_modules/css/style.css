@@ -579,27 +579,12 @@ body {
 }
 
 .carousel-indicators [data-bs-target] {
-  position: relative;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  border-radius: 30px;
   background-color: #ffffff;
-  margin: 0 10px;
-}
-
-.carousel-indicators [data-bs-target]::after {
-  content: "";
-  position: absolute;
-  top: -7px;
-  left: -7px;
-  bottom: -7px;
-  right: -7px;
-  border: 2px solid transparent;
-  border-radius: 50%;
-}
-
-.carousel-indicators [data-bs-target].active::after {
-  border-color: #fff;
+  border: 3px solid #ffffff;
+  padding: 1px;
 }
 
 @media screen and (max-width: 992px) {
